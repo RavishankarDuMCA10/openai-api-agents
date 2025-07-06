@@ -1,0 +1,10 @@
+# Ignore Docker volume
+.dbdata/
+
+# Ignore environment files
+.env
+.venv
+
+# Ignore local Python cache
+__pycache__/
+*.pyc
