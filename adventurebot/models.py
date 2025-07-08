@@ -6,8 +6,8 @@ CHILD_AGE_THRESHOLD = 12
 
 class TripQuery(BaseModel):
     """Input data structure for adventure planing"""
-    start_data: str     # YYYY-MM-DD format
-    end_data: str       # YYYY-MM-DD format
+    start_date: str     # YYYY-MM-DD format
+    end_date: str       # YYYY-MM-DD format
     location: str
     participant_number: int
     participant_ages: List[int]
